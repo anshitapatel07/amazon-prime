@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.web1{
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(21, 21, 21);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navbar{
+    width: 70%;
+    height: 45px;
+    background-color:rgb(21, 21, 21);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    z-index: 111111;
+    position: fixed;
+}
+
+.navbar h1{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar ul{
+    width: 45%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a i{
+    padding-left: 3px;
+}
+
+.navbar a i{
+    color: white;
+}
+
+.navbar span a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.container2{
+    width: 100%;
+    height: 550px;
+    background-image: url('gaming.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    /* object-fit: cover; */
+    background-size: cover;
+}
+
+.left{
+    width: 45%;
+    height: 230px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:left;
+    margin-left: 100px;
+
+
+}
+
+.left h1{
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.left span{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.left button{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(17, 122, 163);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.web2{
+    width: 100%;
+    height: 500px;
+    background-image: url('shazam.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: end;
+    /* object-fit: cover; */
+    background-size: cover;
+
+}
+
+.container3{
+    width: 43%;
+    height: 280px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:left;
+
+
+
+}
+
+.container3 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container3 span{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.container3 button{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(17, 122, 163);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.web3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.left2{
+    width: 50%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:left;
+    /* background-color:pink; */
+    margin-bottom: 320px;
+
+}
+
+.left2 h1{
+    color:black;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.left2 span{
+    color:black;
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.right2{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-color:green; */
+}
+
+.first{
+    width: 32%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-color: palegreen; */
+}
+
+.first img{
+    width: 100%;
+    height: 140px;
+}
+
+.web4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: end;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-color: black;
+}
+
+.web4 img{
+    width: 650px;
+    height: 500px;
+    object-fit: contain;
+    padding-top: 100px;
+    
+}
+
+.container4{
+    width: 45%;
+    height: 350px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:left;
+    margin-bottom: 100px;
+
+
+
+}
+
+.container4 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container4 span{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.container4 button{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(17, 122, 163);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.web5{
+    width: 100%;
+    height: 500px;
+    background-image: url('3-card\ \(1\).jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:left;
+    /* object-fit: cover; */
+    background-size: cover;
+
+}
+
+.container5{
+    width: 43%;
+    height: 300px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:left;
+    margin-left: 100px;
+
+
+
+}
+
+.container5 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container5 span{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.container5 button{
+    width: 300px;
+    height: 50px;
+    background-color:rgb(17, 122, 163);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.web6{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.web6 img{
+    width: 140px;
+    height: 40px;
+    /* object-fit: contain; */
+}
+
+.navbar2{
+    width: 40%;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar2 ul{
+    width: 60%;
+    height: 25px;
+    /* background-color:indigo; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar2 ul li{
+    list-style: none;
+}
+
+.navbar2 ul li a{
+    text-decoration: none;
+    color: rgb(52, 154, 194);
+    font-weight:lighter;
+}
+
+.web6 p{
+    color: white;
+    font-weight: lighter;
+}
